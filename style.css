@@ -1,0 +1,229 @@
+*{
+	margin: 0;
+	/* border: 1px solid black; */
+}
+
+.navbar{
+	margin: 0;
+	border: solid 1px black;
+}
+.navbar a{
+	color: black;
+	text-decoration: none;
+	margin-left: 2%;
+}
+#logoname{
+	font-size: 2rem;
+}
+#logoname span{
+	color: orange ;
+}
+.navbar img{
+	vertical-align: middle;
+	width: 5%;
+	margin-left: 10%;
+}
+#home{
+	color: orange;
+	margin-left: 15%;
+}
+.section2{
+	display: flex;
+	background: rgba(239, 239, 239, 0.5);
+	padding: 6% 13%;
+	border: solid black 1px;
+}
+.shapes{
+	width: 65%;
+	position: relative;
+}
+.rectangle{
+	background: rgba(0, 0, 0, 0.2);
+	width: 70%;
+	padding: 25% 8%;
+}
+.smallo{
+	position: absolute;
+	top: -5%;
+	right: 25%;
+	width: 12%;
+	font-size: 0.8rem;
+	border-radius: 50%;
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 4% 0;
+}
+.bigo{
+	position: absolute;
+	top: 15%;
+	right: 15%;
+	width: 12%;
+	font-size: 0.8rem;
+	border-radius: 50%;
+	background: orange;
+	color: white;
+	text-align: center;
+	padding: 5% 2%;
+
+}
+.bigo span{
+	font-size: 1rem;
+}
+.right{
+	width: 50%;
+}
+.right h1{
+	margin-top: 4%;
+}
+.right ul{
+	font-size: 0.8rem;
+	line-height: 2;
+	margin-top: 4%;
+	border: solid 1px black;
+	position: relative;
+	right: 1.75rem;
+}
+.right button{
+	border: none;
+	background: #ff971c;
+	color: white;
+	padding: 3%;
+	border-radius: 25px;
+	margin-top: 5%;
+}
+.nav2{
+	display: flex;
+	padding: 0.7% 0;
+	background: rgba(0, 0, 0, 0.95);
+	color: white;
+}
+.search{
+	padding: 0;
+	width: 30%;
+	margin-left: 18%;
+	margin-right: 8%;
+	border: red 1px solid;
+}
+.search input{
+	width:64.9%;
+	padding: 3%;
+	margin-right: -1%;
+}
+.search button{
+	width: 33.9% ;
+	padding: 3%;
+}
+.nav2 p{
+	border-right: 1px solid rgba(253, 252, 252, 0.26);
+	padding: 0px 1.5%;
+	display: flex;
+	align-items: center;
+	
+}
+.section3{
+	padding: 5% 15%;
+}
+.s3text h2{
+	line-height: 2;
+}
+.s3g{
+	margin-top: 8%;
+	background-color: rgba(0, 0, 0, 0.1);
+	display: grid;
+	grid-template-columns: repeat(4,25%);
+	text-align: center;
+	line-height: 4.5;
+	font-size: 0.8em;
+	color: rgba(106, 102, 102, 0.7);
+}
+.s3text p{
+	color: grey;
+}
+.r99 span{
+	font-size: 2rem;
+	line-height: 0;
+}
+.gridr{
+	color: white;
+	background: rgba(0, 0, 0, 0.85);
+}
+.basic{
+	font-size: 1.5rem;
+	line-height: 2.5;
+}
+.r2{
+	font-weight: bolder;
+}
+.dropdown{
+	line-height: 3;
+}
+#s3drop{
+	color: rgba(0, 0, 0, 0.7);
+	padding: 4% 5%;
+	background-color: rgba(0, 0, 0, 0.02);
+}
+.dropdown select{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.dropdown select{
+
+}
+.s3gc{
+	border-right: solid 0.5px rgba(0, 0, 0, 0.05);
+}
+.s3gc button{
+	background: #ff971c;
+	color: white;
+	padding: 5% 13%;
+	border: none;
+	border-radius: 2rem;
+}
+#s3drop span{
+	color: orange;
+}
+.order{
+	padding: 10%;
+}
+.section4{
+	padding: 2% 10%;
+	background: black;
+}
+.s4text{
+	width: 60%;
+}
+.s4crap{
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	padding: 2% 0;
+	grid-column-gap: 1em;
+}
+.s4empty{
+	background-color: grey;	
+}
+.s4cr{
+	padding: 5% 0;
+}
+.s4cr h3 , .s4text h1 {
+	color:white;
+}
+.s4cr p, .s4text p{
+	color: grey;
+}
+
+
+
+
+
+
+
+/* @media (min-width:1366px){
+	#logoname+a{
+		margin-left: 12%;
+	}
+} */
+
+
+
+
+
