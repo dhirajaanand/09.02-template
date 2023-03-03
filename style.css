@@ -196,13 +196,29 @@
 	display: grid;
 	grid-template-columns: 33.3% 33.3% 33.3%;
 	padding: 2% 0;
-	grid-column-gap: 1em;
+	grid-column-gap: 1.25em;
+}
+.s4c{
+	padding: 2% 0;
 }
 .s4empty{
 	background-color: grey;	
 }
 .s4cr{
-	padding: 5% 0;
+	padding: 8% 0;
+	display: grid;
+	grid-template-columns: 19% 79%;
+	grid-gap: 5%;
+}
+.s4cr i{
+	color: white;
+	width: 100%;
+	border: 1px grey solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50% ;
+	font-size: 2rem;
 }
 .s4cr h3 , .s4text h1 {
 	color:white;
@@ -210,7 +226,26 @@
 .s4cr p, .s4text p{
 	color: grey;
 }
+.s4coltext h3{
+	line-height: 2;
+}
 
+.section5{
+	padding: 5% 15%;
+	display: flex;
+}
+.s5c{
+	width: 50%;
+	
+}
+.s5cc{
+	display: flex;
+}
+.s5empty{
+	width: 50%;
+	background: grey;
+	padding: 2%;
+}
 
 
 
